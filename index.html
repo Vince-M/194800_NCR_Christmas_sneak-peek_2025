@@ -40,13 +40,17 @@
           margin: 0 !important;
         }
         .ctaHead {
-          color: #000000 !important;
+          color: #2b2b2b !important;
         }
-        p {
+        p,
+        p.intro {
           font-size: 16px;
           line-height: 20px;
-          color: #000000; 
+          color: #2b2b2b; 
           margin-top: 10px;
+        }
+        .highLight {
+          color: #007476;
         }
         .viewOnline {
           width: 280px !important;
@@ -202,6 +206,9 @@
           /* .flyerProduct {
             padding-left: 40px !important;
           } */
+          .intro {
+            padding: 0 24px !important;
+          }
           .column-one-half {
             max-width: 49% !important;
           }
@@ -231,6 +238,9 @@
           .productPrice {
             font-size: 28px !important;
           }
+          a.signUp {
+            font-size: 26px !important;
+          }
           .footerMenu {
             display: block;
             padding: 0 !important;
@@ -247,12 +257,19 @@
           supported-color-schemes: light dark;
         }
         @media (prefers-color-scheme: dark) {
-         body,
-          table {
+         body {
             background: #fafafa !important;
           }
           .ncrBrand {
             background-color: #005cab !important;
+          }
+          p,
+          p.intro {
+            color: #fafafa;
+          }
+          .highLight,
+          .signUp {
+            color: #fafafa !important;
           }
           strong {
             font-weight: 700;
@@ -266,7 +283,7 @@
           .darkmode-transparent {
             background-color: transparent !important;
           }
-          [data-ogsc] body, table {
+          [data-ogsc] body {
             background: #fafafa !important;
           }
           [data-ogsc] h3 {
@@ -308,7 +325,7 @@
 
     <center style="width:100%; table-layout:fixed; padding-bottom:40px;">
 
-      <div style="max-width: 600px; background-color: #fafafa;; color: #3d3d3d; font-family: Helvetica, Arial, sans-serif; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); margin: 0 auto;">
+      <div style="max-width: 600px; background-color: #fafafa;; color: #2d2d2d; font-family: Helvetica, Arial, sans-serif; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); margin: 0 auto;">
 
       <!-- PREHEADER START -->
       <div style="font-size: 0; color: #fafafa;; mso-line-height-rule: exactly; line-height: 0; display: none; max-width: 0; max-height: 0; opacity: 0; overflow: hidden; mso-hide: all;">
@@ -327,67 +344,67 @@
       <table align="center" style="border-spacing: 0; border-collapse: collapse; mso-background-color: #fafafa; border-spacing: 0; bgcolor: fafafa; background: #fafafa; color: #005cab; font-family: Helvetica, Arial, sans-serif; font-size: 16px; background-color: #ffffff; margin: 0 auto 0; padding: 0; width: 100%; max-width: 600px;" role="presentation">
 
         <!-- CANADA PROUD & VIEW ONLINE START -->
-        <tr>
-          <td style="padding: 0;">
+          <tr>
+            <td style="padding: 0;">
 
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
- 
-              <tr>
-                <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: left;">
+              <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+  
+                <tr>
+                  <td class="column-wrapper" style="padding: 0; font-size: 0; text-align: left;">
 
-                  <!--[if mso]>
-                    <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+                    <!--[if mso]>
+                      <table width="600" align="center" style="border-spacing: 0;" role="presentation">
+                        <tr>
+                          <td width="280" valign="top" style="padding: 0;"
+                    <![endif]-->
+
+                    <table class="column column-one-half" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; margin: 0;" role="presentation">
                       <tr>
-                        <td width="280" valign="top" style="padding: 0;"
-                  <![endif]-->
-
-                  <table class="column column-one-half" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; margin: 0;" role="presentation">
-                    <tr>
-                      <td style="text-align: left; padding: 16px 0 16px 24px; font-size: 0;">
-                        <img src="img/canada.png" alt="Canadian Proud with a Maple Leaf" title="Northern / NorthMart Weekly Savings!" width="144" border="0" style="width: 100%; max-width: 144px;">
-                      </td>
-                    </tr>
-                  </table>
-
-                  <!--[if mso]>
-                    </td><td width="280" valign="top" style="padding: 0;">
-                  <![endif]-->
-
-                  <table class="column column-one-half"  width="100%" align="right" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; text-align: right; margin: 0;" role="presentation">
-
-                    <tr>
-                      <td class="online" style="font-family: Helvetica, Arial, sans-serif; color: #004E7D; padding: 10px 16px 10px 0; margin: 0;">
-
-                        <table class="column" width="100%" align="right" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
-
-                          <tr>
-                            <td class="flyerProduct" style="text-align: right; padding-right: 16px; vertical-align: top;  font-family: Helvetica, Arial, sans-serif; width: 100%;">
-                              <a class="browser" align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; color: #004E7D; text-decoration: underline !important; text-align: right; padding: 0; margin-bottom: 0;" href="##webversionurl##" target="_blank">
-                                view online
-                              </a>
-                            </td>
-                          </tr>
-
-                        </table>
-
-                      </td>
-                    </tr>
-
-                  </table>
-
-                  <!--[if mso]>
+                        <td style="text-align: left; padding: 16px 0 16px 24px; font-size: 0;">
+                          <img src="img/canada.png" alt="Canadian Proud with a Maple Leaf" title="Northern / NorthMart Weekly Savings!" width="144" border="0" style="width: 100%; max-width: 144px;">
                         </td>
                       </tr>
                     </table>
-                  <![endif]-->
 
-                </td>
-              </tr>
+                    <!--[if mso]>
+                      </td><td width="280" valign="top" style="padding: 0;">
+                    <![endif]-->
 
-            </table>
+                    <table class="column column-one-half"  width="100%" align="right" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0; text-align: right; margin: 0;" role="presentation">
 
-          </td>
-        </tr>
+                      <tr>
+                        <td class="online" style="font-family: Helvetica, Arial, sans-serif; color: #004E7D; padding: 10px 16px 10px 0; margin: 0;">
+
+                          <table class="column" width="100%" align="right" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
+
+                            <tr>
+                              <td class="flyerProduct" style="text-align: right; padding-right: 16px; vertical-align: top;  font-family: Helvetica, Arial, sans-serif; width: 100%;">
+                                <a class="browser" align="center" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 500; color: #004E7D; text-decoration: underline !important; text-align: right; padding: 0; margin-bottom: 0;" href="##webversionurl##" target="_blank">
+                                  view online
+                                </a>
+                              </td>
+                            </tr>
+
+                          </table>
+
+                        </td>
+                      </tr>
+
+                    </table>
+
+                    <!--[if mso]>
+                          </td>
+                        </tr>
+                      </table>
+                    <![endif]-->
+
+                  </td>
+                </tr>
+
+              </table>
+
+            </td>
+          </tr>
         <!-- CANADA PROUD & VIEW ONLINE END -->
 
         <!-- SNEAK PEEK HERO START -->
@@ -402,8 +419,8 @@
 
               <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td class="header" style="text-align: center; background-color: #fafafa !important; padding: 0;">
-                    <img src="img/bring-the-magic_email-hero_600x480.jpg" width="600" style="margin: 0; padding: 0; border: none; display: block;" border="0" alt="Christmas presents with a sparkler in front, bird drawing in the top corner" title="Magic of the Holidays!">
+                  <td class="header" style="text-align: center; padding: 0;">
+                    <img src="img/bring-the-magic_email-hero_600x480.png" width="600" style="margin: 0; padding: 0; border: none; display: block;" border="0" alt="Christmas presents with a sparkler in front, bird drawing in the top corner" title="Magic of the Holidays!">
                   </td>
                 </tr>
               </table>
@@ -431,15 +448,15 @@
               <table width="100%" border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
 
                 <tr>
-                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 0 24px; margin: 0;">
-                    <img style="width: 100%; max-width: 471px; padding: 0 64px 8px; text-align: center;" src="img/sneekPeak_header.png" width="100%" max-width="471px"  alt="Get a Sneak Peek inside the Wonders of the Holidays!">
+                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: center; padding: 0; margin: 0;">
+                    <img style="width: 100%; max-width: 471px; padding: 0; text-align: center;" src="img/sneekPeak_header.png" width="471" alt="Get a Sneak Peek inside the Wonders of the Holidays!">
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 0 24px; margin: 0;">
-                    <p class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 64px 24px; margin: 0;">Witness the <span style="font-weight: 700; color: #007476;">magic of the holidays,</span> and discover gifts that make every child's wish come true.</p>
-                    <p class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 64px; margin: 0;">Sign-up today for early access to the <span style="font-weight: 700; color: #007476;">2025 Toys & Games Catalogue</span> from <span style="font-weight: 700; color: #007476;">Northern / NorthMart</span> and be the first to explore this season's most-loved toys that fill homes with laughter, excitement, and joy all across the North.</p>
+                  <td style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 0 24px; margin: 0;">
+                    <p class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 64px; margin-bottom: 24px;">Witness the <span class="highLight" style="font-weight: 700;">magic of the holidays,</span> and discover gifts that make every child's wish come true.</p>
+                    <p class="intro" style="font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 500; text-align: left; padding: 0 64px; margin: 0;">Sign-up today for early access to the <span class="highLight" style="font-weight: 700;">2025 Toys & Games Catalogue</span> from <span class="highLight" style="font-weight: 700;">Northern / NorthMart</span> and be the first to explore this season's most-loved toys that fill homes with laughter, excitement, and joy all across the North.</p>
                   </td>
                 </tr>
 
@@ -468,7 +485,7 @@
               <table border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation"> <!-- standard & alignment -->
 
                 <tr>
-                  <td style="text-align: center; padding: 32px 40px;">
+                  <td style="text-align: center; padding: 32px;">
                     <h1>
                       <a class="signUp" style="font-family: Helvetica, Arial, sans-serif; font-size: 28px; line-height: 30px; font-weight: 700; margin: 0 !important; text-align: center; color: #007476; text-decoration: none !important;" href="mailto: ">Sign-up for EARLY ACCESS to the 2025 Toys & Games Catalogue today &#10095;</a>
                     </h1>
@@ -488,7 +505,7 @@
 
                       <tr>
                         <td align="center" bgcolor="007576" style="border-radius: 8px; color: #fafafa; background-color: #007576;">
-                          <a class="btn" href="https://www.northmart.ca/shopandwin" target="_blank" style="font-size: 26px; font-weight: 700; letter-spacing: 1px; text-decoration: none !important; color: #fafafa; background-color: #007576; border: 1px solid #007576; border-radius: 8px; padding: 16px 32px 12px 32px; display: inline-block;">Early Access &#10095;</a>
+                          <a class="btn" href="#" target="_blank" style="font-size: 26px; font-weight: 700; letter-spacing: 1px; text-decoration: none !important; color: #fafafa; background-color: #007576; border: 1px solid #007576; border-radius: 8px; padding: 16px 32px 12px 32px; display: inline-block;">Early Access &#10095;</a>
                         </td>
                       </tr>
 
@@ -527,7 +544,7 @@
 
               <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;" role="presentation">
                 <tr>
-                  <td style="text-align: center; padding: 0 0 48px 0;">
+                  <td style="text-align: center; padding: 0 0 48px;">
                       <img src="img/bring-the-magic_banner_600x250.jpg" width="600" style="margin: 0; padding: 0; border: none; display: block;" border="0" alt="Two young boys and a girl with a Toys & Games catalogue behind them" title="Looking forward to the Toys & Games catalogue">
                   </td>
                 </tr>
@@ -543,7 +560,7 @@
           </tr>
         <!-- TOYS & GAMES BANNER END -->
 
-                <!-- INTERNAL BANNER ( CONTEST OR PROMOTION ) START -->
+        <!-- INTERNAL BANNER ( CONTEST OR PROMOTION ) START -->
         <tr>
           <td align="center" style="padding: 0;">
 
@@ -556,7 +573,7 @@
             <table border="0" align="center" cellspacing="0" cellpadding="0" style="border-spacing: 0; text-align: center;" role="presentation">
               <tr>
                 <td style="text-align: center; padding: 0 0 40px 0; font-size: 0;">
-                  <img src="img/christmas_we-ve_got_it_400x124.png" alt="We've Got It" class="wevegotit" title="We've Got It" width="400" border="0" style="width: 100%; max-width: 600px; border: 2px solid #fafafa;"> 
+                  <img src="img/christmas_we-ve_got_it_400x124.png" alt="We've Got It" class="wevegotit" title="We've Got It" width="400" border="0" style="width: 100%; max-width: 600px;"> 
                 </td>
               </tr>
             </table>
